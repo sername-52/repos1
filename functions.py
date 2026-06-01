@@ -13,3 +13,7 @@ def plos_triangle(a, b, c):
     p = (a + b + c) / 2
     plost = sqrt((a - p) * (b - p) * (c - p))
     print(f"Площадь треугольника равна {plost}")
+
+def plos_trap(a, b, h):
+    plostr = ((a + b) * h) / 2
+    print(f"Площадь трапеции равна {plostr}")
